@@ -1,0 +1,53 @@
+.questions {
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+ 
+  
+  .title {
+    font-size: 3rem;
+    font-family: 'times new roman';
+    text-align: center;
+  }
+  
+  .section-center{
+    width: 60vw;
+    margin: 0 auto;
+  }
+  
+  .question{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+  }
+  
+  .question-title{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .question-btn{
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .question-text {
+    display: none;
+    color: grey;;
+    
+  }
+  .question p{ 
+    font-family: 'times new roman';
+    font-size: 1.3rem;
+  }
+  
+  .show-text{
+    display: block;
+  }
+  
+  
